@@ -138,10 +138,10 @@
 }
 
 .ex-13-button:hover .ex-13-top-white{
-    animation: moving-border-top linear 2s;
+    animation: allAround-border-top linear 2s;
 }
 
-@keyframes moving-border-top{
+@keyframes allAround-border-top{
     0% {
         top: -10px;
         left: 10%;
@@ -174,10 +174,10 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
-    animation: moving-border-bottom linear 2s;
+    animation: allAround-border-bottom linear 2s;
 }
 
-@keyframes moving-border-bottom{
+@keyframes allAround-border-bottom{
     0% {
         bottom: -10px;
         right: 20%;
