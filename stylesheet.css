@@ -138,10 +138,10 @@
 }
 
 .ex-13-button:hover .ex-13-top-white{
-    animation: rotating-border-top linear 2s;
+    animation: moving-border-top linear 2s;
 }
 
-@keyframes rotating-border-top{
+@keyframes moving-border-top{
     0% {
         top: -10px;
         left: 10%;
@@ -174,10 +174,10 @@
 }
 
 .ex-13-button:hover .ex-13-bottom-white{
-    animation: rotating-border-bottom linear 2s;
+    animation: moving-border-bottom linear 2s;
 }
 
-@keyframes rotating-border-bottom{
+@keyframes moving-border-bottom{
     0% {
         bottom: -10px;
         right: 20%;
