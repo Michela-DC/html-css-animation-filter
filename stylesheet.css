@@ -26,4 +26,26 @@
 } 
 
 
+/* FILTER ----------------------------------- */
 
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+
+.ex-7-img:hover{
+    transition: filter 3s;
+    filter: sepia(60%);
+}
+
+.ex-8-img:hover{
+    transition: filter 2s, border-radius 2s;
+    filter: sepia(80%);
+    border-radius: 20px;
+}
+
+.ex-9-img:hover{
+    transition: transform 2s, border-radius 2s, filter 2s;
+    transform: scale(1.5);
+    border-radius: 20px;
+    filter: sepia(60%) grayscale(40%);
+}
